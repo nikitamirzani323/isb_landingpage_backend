@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	"bitbucket.org/isbtotogroup/isbpanel_frontend_backend/configs"
-	"bitbucket.org/isbtotogroup/isbpanel_frontend_backend/entities"
 	"github.com/go-resty/resty/v2"
 	"github.com/gofiber/fiber/v2"
+	"github.com/nikitamirzani323/isb_landingpage_backend/configs"
+	"github.com/nikitamirzani323/isb_landingpage_backend/entities"
 )
 
 type responseinit struct {

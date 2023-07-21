@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
-	"bitbucket.org/isbtotogroup/isbpanel_frontend_backend/helpers"
 	"github.com/go-resty/resty/v2"
 	"github.com/gofiber/fiber/v2"
 	"github.com/google/uuid"
+	"github.com/nikitamirzani323/isb_landingpage_backend/helpers"
 )
 
 func Crmhome(c *fiber.Ctx) error {

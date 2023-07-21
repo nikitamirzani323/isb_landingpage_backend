@@ -6,8 +6,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"bitbucket.org/isbtotogroup/isbpanel_frontend_backend/routers"
 	"github.com/joho/godotenv"
+	"github.com/nikitamirzani323/isb_landingpage_backend/routers"
 )
 
 func main() {

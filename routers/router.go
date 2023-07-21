@@ -1,12 +1,12 @@
 package routers
 
 import (
-	"bitbucket.org/isbtotogroup/isbpanel_frontend_backend/controllers"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/compress"
 	"github.com/gofiber/fiber/v2/middleware/logger"
 	"github.com/gofiber/fiber/v2/middleware/monitor"
 	"github.com/gofiber/fiber/v2/middleware/recover"
+	"github.com/nikitamirzani323/isb_landingpage_backend/controllers"
 )
 
 func Init() *fiber.App {
