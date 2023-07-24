@@ -33,5 +33,5 @@ COPY --from=isbpbuildmaster /go/src/bitbucket.org/isbtotogroup/isbpanel_backend/
 ENV TZ=Asia/Jakarta
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
-EXPOSE 1021
+EXPOSE 2201
 CMD ["./app"]
